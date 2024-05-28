@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    color: white;
+    background-color: #496989;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#hero{
+    color: white;
+    margin-top: 55px;
+    background-image: url("pics/Untitled\ design\ \(1\).png");
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+#hero h2{
+    margin-top: -20px;
+}
+#hero p{
+    margin: 15px 0px 30px 0px;
+
+}
+#btn-reg{
+    
+    background-color: #58A399;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 1s ease;
+}
+#btn-reg:hover{
+    background-color: white;
+    color: #58A399
+}
+#speakers{
+    margin: 20px 20px 0px 20px;
+}
+.speaker{
+    display: flex;
+    justify-content: space-evenly;
+}
+.speaker h2{
+    margin-top: 20px;
+}
+.speaker h3 {
+    margin: 5px 0px 5px 0px;
+}
+.speaker h5{
+    margin-top: 8px;
+}
+#schedule{
+    margin: 20px 20px 0px 20px;
+}
+.schedules{
+    display: flex;
+    justify-content: space-around;
+}
+.schedules h2{
+    margin-top: 20px;
+}
+.schedules h4{
+    margin: 5px 0px 5px 0px;
+}
+.schedules h3 {
+    margin-top: 15px;
+}
+.schedules h5{
+    margin-top: 8px;
+}
+#register{
+    margin: 20px 20px 10px 20px;
+}
+.registration{
+    margin-top: 15px;
+}
+footer{
+    background-color: #496989;
+    padding : 20px;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#copyright{
+    color: white;
+    text-align: center;
+}
+#quick{
+    font-size: 24px;
+}
+.social{
+    margin-left: 20px;
+}
+.social img{
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
